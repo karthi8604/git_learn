@@ -1,0 +1,23 @@
+git config --global user.name "karthi8604"
+git config --global user.email "s.karthimsd7@gmail.com"
+git clone https://github.com/karthi8604/Demo.git
+cd Demo
+git status
+git add test1.txt
+git commit -m "test1.txt added"
+git push origin main
+	//modification->add->commit->push
+git pull
+cd ..
+git init
+git add .
+git remote add origin https://github.com/karthi8604/gitedit.git
+git branch
+git push origin master
+git branch -M main
+git branch -a
+git branch <branch name>
+git checkout <branch name>
+git diff <branch name>
+git merge <branch name> //from main
+git pull origin main
